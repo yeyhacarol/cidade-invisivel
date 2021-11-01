@@ -8,10 +8,13 @@ main {
 }
 
 main h1 {
-    font-size: 4.5rem;
-    font-weight: 500;
-    color: whitesmoke;
+    font-size: 5.25rem;
     font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    color: #0000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
 }
 
 main h2 {
@@ -19,6 +22,13 @@ main h2 {
     font-weight: 300;
     color: #ff0000;
     font-family: "Open Sans", sans-serif;
+    transform: rotate(-90deg);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 main p {
@@ -27,6 +37,7 @@ main p {
     font-size: 1.3rem;
     color: whitesmoke;
     font-family: "Open Sans", sans-serif;
+    font-style: italic;
 }
 
 main ul {
@@ -40,16 +51,23 @@ main ul {
     list-style: none;
 }
 
- .ator {
-     font-size: 20px;
-     font-family: "Open sans";
-     font-style: italic;
- }
+.info {
+    display: flex;
+}
 
- .interprete {
-     font-size: 16px;
-     font-family: "Open sans";
-     font-style: italic;
- }
+.ator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra {
+    width: 5px;
+    height: 50px;
+    background-color: #ff0000;
+    margin-right: 50px;
+    border-radius: 5px 5px;
+}
 
 
