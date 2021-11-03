@@ -48,3 +48,16 @@ main {
     color: whitesmoke;
     font-family: "Open Sans", sans-serif;
   }
+
+  .info {
+    width: 480px;
+    height: 60px;
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .ator {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }

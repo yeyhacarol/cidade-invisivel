@@ -4,10 +4,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: antiquewhite;
   }
   
   footer p {
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 100;
   }

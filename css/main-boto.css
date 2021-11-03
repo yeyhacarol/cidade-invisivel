@@ -10,18 +10,28 @@ main {
 main h1 {
     font-size: 5.25rem;
     font-family: "Open Sans", sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 70px;
     color: #0000;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: white;
+    margin-top: -45px;
 }
 
 main h2 {
-    font-size: 2rem;
-    font-weight: 300;
-    color: #ff0000;
+    font-size: 2.62rem;
     font-family: "Open Sans", sans-serif;
+    margin-left: 310px;
+    color: #0000;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+}
+
+main h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #972C2C;
+    font-family: "Open Sans regular", sans-serif;
     transform: rotate(-90deg);
 }
 
@@ -32,23 +42,11 @@ main h2 {
 }
 
 main p {
-    width: 370px;
-    height: 189px;
-    font-size: 1.3rem;
+    width: 415px;
+    font-size: 1.5rem;
     color: whitesmoke;
     font-family: "Open Sans", sans-serif;
     font-style: italic;
-}
-
-main ul {
-    width: 480px;
-    height: 30px;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    color: whitesmoke;
-    text-decoration: none;
-    list-style: none;
 }
 
 .info {
@@ -58,16 +56,17 @@ main ul {
 .ator {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 180px;
+    height: 125px;
+    justify-content: flex-end;
 }
 
 .barra {
     width: 5px;
-    height: 50px;
-    background-color: #ff0000;
-    margin-right: 50px;
+    height: 60px;
+    background-color: #972C2C;
+    margin-right: 20px;
     border-radius: 5px 5px;
+    margin-top: 60px;
+    margin-left: 30px;
 }
-
-
