@@ -1,0 +1,59 @@
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 80px;
+    gap: 5px;
+    color: antiquewhite;
+}
+
+.container{
+    display: flex;
+}
+
+.sobre-serie {
+    width: 650px;
+    height: 420px;
+    font-family: "Open sans", sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.desenvolvedora {
+    width: 495px;
+    height: 110px;
+    background-color: #0009;
+}
+.dados {
+    width: 305px;
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    margin-left: 195px;
+    padding: 1px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #972C2C;
+    font-family: "Open Sans regular", sans-serif;
+    transform: rotate(-90deg);
+    margin-left: 15px;
+    height: 50px;
+    margin-top: 135px;
+}
+
+.info {
+    display: flex;
+}
+
+.ator {
+    font-size: 22px;
+    font-family: "Open sans", sans-serif;
+    width: 190px;
+    height: 400px;
+    
+}
+
+
